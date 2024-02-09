@@ -2,16 +2,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: combined-monorepo
-  title: Combined monorepo
-  description: A combined monorepo
+  name: test-techdocs-issue
+  title: test-techdocs-issue
+  description: test-techdocs-issue
   annotations:
-    github.com/project-slug: RoadieHQ/sample-combined-monorepo
-    backstage.io/source-location: url:https://github.com/RoadieHQ/sample-combined-monorepo/
+    github.com/project-slug: AcmeInc/test-techdocs-issue
+    backstage.io/source-location: url:https://github.com/AcmeInc/test-techdocs-issue
     backstage.io/techdocs-ref: dir:.
   tags: 
     - nodejs
 spec:
   type: service
-  owner: roadiehq/engineering
+  owner: user:default/punkle
   lifecycle: experimental
